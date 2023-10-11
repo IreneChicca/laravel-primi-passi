@@ -19,4 +19,13 @@ Route::get('/', function () {
     $message2 = "questa è la tua homepage";    
 
     return view('homepage', compact('message','message2')  );
-});
+})->name('home');
+
+
+
+Route::get('/products', function () {
+
+  
+
+    return view('products');
+})->name('products');

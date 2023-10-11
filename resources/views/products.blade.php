@@ -8,7 +8,12 @@
 </head>
 
 <body>
-
+    <h1>Ecco i tuoi prodotti</h1>
+    <ul>
+        <li>Prodotto 1</li>
+        <li>Prodotto 2</li>
+        <li>Prodotto 3</li>
+    </ul>
 </body>
 
 </html>
